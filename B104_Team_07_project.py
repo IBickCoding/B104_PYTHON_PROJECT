@@ -35,7 +35,8 @@ def heatmap():
     plt.rcParams.update({'font.size': 18})
     plt.rcParams['figure.facecolor'] = 'xkcd:salmon'
     plt.figure(figsize=(12, 7),dpi=100)
-    sns.heatmap(df_heat.corr(),annot=True,vmin=0,vmax=1,cmap="viridis")  
+    sns.heatmap(df_heat.corr(),annot=True,vmin=0,vmax=1,cmap="viridis")
+    plt.show()
 def piechart():
     labels1 = ["No Usage","Marijuana User"]
     labels2 = ["No Usage","Illegal Drugs User"]
@@ -170,6 +171,7 @@ def barchart():
     
     plt.rcParams.update({'font.size': 14})
     plt.rcParams['figure.facecolor'] = 'xkcd:salmon'
+    plt.show()
     
     # Drug use graph
     plt.figure(figsize=(12, 7),dpi=100)
