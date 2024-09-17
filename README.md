@@ -1,6 +1,6 @@
 # PROJECT
  Final Project for B104: Computer Programming Techniques, Practices and Tools.
- This was a team based project where I collaborated with @xenoyle
+ This was a team based project where I collaborated with @xenoyle.
 
  Normally, you will need the Microsoft Access file for the YBRS 2021 database.
  Then, you will need the SQL code to extract the information.
